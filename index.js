@@ -1,3 +1,5 @@
+import { upperCase as uppercase } from "upper-case";
+
 function add(a, b) {
     return a + b;
 }
@@ -26,10 +28,17 @@ function percentage(a,b){
     }
 }
 
+function upperCaseGreet(name){
+    return uppercase(`hello ${name},greeting from MA`);
+}
+
+console.log(upperCaseGreet('mohit'));
+
 module.exports = {
     'add': add,
     'subtract': subtract,
     'product': product,
     'divide': divide,
-    'percentage': percentage
+    'percentage': percentage,
+    'greetings' : upperCaseGreet
 };
