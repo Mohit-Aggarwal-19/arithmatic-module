@@ -1,0 +1,14 @@
+{
+  "name": "pilot-dmas-rule",
+  "version": "1.0.0",
+  "description": "MA_FIRST_PACKAGE",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bodmas"
+  ],
+  "author": "MA",
+  "license": "ISC"
+}
