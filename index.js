@@ -18,9 +18,18 @@ function divide(a, b) {
     }
 }
 
+function percentage(a,b){
+    if(b!==0){
+        return (a / b) * 100
+    }else{
+        return 'inderterminant';
+    }
+}
+
 module.exports = {
     'add': add,
     'subtract': subtract,
     'product': product,
     'divide': divide,
+    'percentage': percentage
 };
